@@ -22,11 +22,11 @@ A Thunderbird launcher AutoIt script that automatically deals with those pesky m
   There is also a small chance the script could type the password into the wrong window.
 
 ### FAQs:
-  Q: The script it just typing in infinite password boxes or has otherwise gone wrong! What do I do?
+  Q: The script is just typing in infinite password boxes or has otherwise gone wrong! What do I do?<br />
   A: Right click on the AutoIt icon in the System Tray (bottom right of the screen) and click "Exit".
 
-  Q: Why do I still get the multiple password prompts after launching Thunderbird?
+  Q: Why do I still get the multiple password prompts after launching Thunderbird?<br />
   A: You need to run the script instead which prompts for the master password then launches Thunderbird by it's self.
  
-  Q: Why don't you provide a compiled version of the script that runs without needing to install Autoit?
+  Q: Why don't you provide a compiled version of the script that runs without needing to install Autoit?<br />
   A: Because some virus guards flag compiled AutoIt scripts as viruses.
