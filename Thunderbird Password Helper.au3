@@ -12,11 +12,12 @@
 	The script prompts for the master password, launches Thunderbird then types the password into each password prompt for you.
 
 	Disclaimer:
+	I (the author) ACCEPT NO RESPONSIBILITY FOR ANYTHING BAD THAT ARISES FROM USE OF THIS SCRIPT. USE WITH CAUTION!
 	I quickly wrote this script due to deal with the normal workaround not working in Thunderbird 60,
 	due to the usual workaround addons not being compatible with Thunderbird Quantum.
 	Bugs and security problems may be present.
 	There is also a slight chance the script could type the password into the wrong window.
-	I (the author) ACCEPT NO RESPONSIBILITY FOR ANYTHING BAD THAT ARISES FROM USE OF THIS SCRIPT. USE WITH CAUTION!
+
 
 #ce ----------------------------------------------------------------------------
 
