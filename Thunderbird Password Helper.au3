@@ -39,6 +39,7 @@ Main()
 
 Func Main()
 	Local $sPassword = InputBox($sSCRIPT_TITLE, "Please input the Thunderbird master password.", "", "*M", 364, 158)
+	If StringLen($sPassword) = 0 Then Exit
 	If Not Run($sTHUNDERBIRD_PATH) Then ErrorTrapAbort("Could not launch Thunderbird." & @CRLF & 'If Thunderbird is installed in a different location to: "' _
 			 & @CRLF & $sTHUNDERBIRD_PATH & '",' & @CRLF & "then please edit the thunderbird path near the top of the script.")
 	If Not _WinWaitActivate($sWIN_DESC_MAIN, "", 40) Then ErrorTrapAbort("Timeout waiting for thunderbird to start.")
