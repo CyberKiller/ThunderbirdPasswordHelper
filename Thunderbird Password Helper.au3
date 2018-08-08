@@ -1,4 +1,3 @@
-
 #cs ----------------------------------------------------------------------------
 
 	AutoIt Version: 3.3.14.2
@@ -13,11 +12,9 @@
 
 	Disclaimer:
 	I (the author) ACCEPT NO RESPONSIBILITY FOR ANYTHING BAD THAT ARISES FROM USE OF THIS SCRIPT. USE WITH CAUTION!
-	I quickly wrote this script due to deal with the normal workaround not working in Thunderbird 60,
-	due to the usual workaround addons not being compatible with Thunderbird Quantum.
+	I quickly wrote this script due to the usual workaround addons not being compatible with Thunderbird 60 (Quantum).
 	Bugs and security problems may be present.
 	There is also a slight chance the script could type the password into the wrong window.
-
 
 #ce ----------------------------------------------------------------------------
 
