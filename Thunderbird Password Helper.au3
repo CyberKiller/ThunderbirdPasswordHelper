@@ -2,7 +2,7 @@
 
 	AutoIt Version: 3.3.14.2
 	Author:         CyberKiller
-	Version: 1.0.1
+	Version: 0.0.1
 
 	Script Function:
 	Assists with those pesky Thunderbird multiple Master Password prompts.
