@@ -3,7 +3,7 @@
 
 	AutoIt Version: 3.3.14.2
 	Author:         CyberKiller
-	Version: 1.0
+	Version: 1.0.1
 
 	Script Function:
 	Assists with those pesky Thunderbird multiple Master Password prompts.
@@ -41,7 +41,8 @@ Main()
 
 Func Main()
 	Local $sPassword = InputBox($sSCRIPT_TITLE, "Please input the Thunderbird master password.", "", "*M", 364, 158)
-	Run($sTHUNDERBIRD_PATH)
+	If Not Run($sTHUNDERBIRD_PATH) Then ErrorTrapAbort("Could not launch Thunderbird." & @CRLF & 'If Thunderbird is installed in a different location to: "' _
+			 & @CRLF & $sTHUNDERBIRD_PATH & '",' & @CRLF & "then please edit the thunderbird path near the top of the script.")
 	If Not _WinWaitActivate($sWIN_DESC_MAIN, "", 40) Then ErrorTrapAbort("Timeout waiting for thunderbird to start.")
 	While True
 		If Not _WinWaitActivate($sWIN_DESC_PW_DLG, "", 5) Then ExitLoop
