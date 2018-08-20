@@ -1,4 +1,4 @@
-# ThunderbirdPasswordHelper
+# Thunderbird Password Helper
 A Thunderbird launcher AutoIt script that automatically deals with those pesky multiple Master Password prompts.
 
 ### Installation:
