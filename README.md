@@ -1,6 +1,9 @@
 # Thunderbird Password Helper
 A Thunderbird launcher AutoIt script that automatically deals with those pesky multiple Master Password prompts.
 
+### Notice:
+The addons StartupMaster and Master Password+ mysteriously appear to be working again so this script may not be needed anymore.
+
 ### Installation:
   Download and install AutoIt from here: https://www.autoitscript.com/site/autoit/downloads/, then download "Thunderbird Password Helper.au3" from this repo and place it somewhere convinent.
   If you have installed Thunderbird to somewhere other than: "C:\Program Files (x86)\Mozilla Thunderbird\thunderbird.exe",
